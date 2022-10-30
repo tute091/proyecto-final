@@ -1,0 +1,44 @@
+/*LOCALES*/
+
+.Locales1 {
+    background-image: url(../img/local1.jpg);
+    background-repeat: no-repeat;
+}
+
+.title3 {
+    color: $color-text;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    padding: 40px;
+}
+
+.carneTL {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloLocal {
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 35px;
+    color: $color-text;
+    padding: 20px;
+}
+
+.locales p {
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: large;
+    color: $color-text;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.maps {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: solid 10px;
+}

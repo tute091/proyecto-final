@@ -1,0 +1,49 @@
+/**HEADER**/
+
+header {
+    grid-area: menu1;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-size: cover;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rancho a img {
+    width: 376px;
+    height: 119px;
+    padding: 20px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: end;
+    padding: 35px;
+    gap: 20px;
+
+    li {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: $color-text;
+        font-family: 'Inter Tight', sans-serif;
+        font-size: 20px;
+        position: relative;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    a:hover {
+        color: rgba(255, 0, 0, 0.856);
+    }
+    }
+}

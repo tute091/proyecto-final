@@ -1,0 +1,27 @@
+/*CONTACTANOS*/
+
+.contactanos {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: large;
+    color: $color-text;
+    font-weight: 300;
+    padding: 85px;
+    background-image: url(../img/campoInfo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nombre,
+.apellido,
+.email {
+    display: block;
+    padding: 10px;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Inter Tight', sans-serif;
+}

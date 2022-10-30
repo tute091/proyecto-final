@@ -1,0 +1,36 @@
+/**SOBRE NOSOTROS**/
+
+.sobreNosotros {
+    background-image: url("../img/campoSobreNosotros.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title2 {
+    color: $color-text;
+    padding: 40px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.sobreNosotros {
+    section {
+        text-align: center;
+        font-family: 'Inter Tight', sans-serif;
+        font-size: large;
+    }
+
+    div p {
+        color: $color-text;
+        padding: 50px;
+        -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    }
+
+    ul {
+        color: $color-text;
+        padding: 10px;
+        -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+    }
+}

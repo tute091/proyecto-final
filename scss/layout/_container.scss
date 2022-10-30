@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat (5, 1fr);
+    grid-template-rows: repeat (3, 1fr);
+    grid-template-areas:
+        "menu1 menu1 menu1 menu1 menu1"
+        "main main main main main"
+        "footer footer footer footer footer"
+    ;
+}
